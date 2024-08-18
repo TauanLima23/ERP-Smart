@@ -72,7 +72,6 @@ for linha in tabela.index:
         pyautogui.press('F4')
         pyautogui.press('F3')
         pyautogui.press('F5')
- 
         # Continue para a próxima iteração do loop
         continue
     time.sleep(.6)  
