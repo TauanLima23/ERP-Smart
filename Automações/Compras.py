@@ -23,7 +23,7 @@ pyautogui.press("enter")
  
 time.sleep(8)
 pyautogui.hotkey("win","r",interval=0.1)
-pyautogui.write(r"\Users\tauan.lima\Desktop\estoq125.exe", interval=0.0)
+pyautogui.write(r"C:\Users\tauan.lima\Desktop\estoq125.exe", interval=0.0)
 pyautogui.press("enter")
  
 #login Smart
