@@ -26,8 +26,8 @@ ADMTRAT AS(
 
 SELECT PAC.PAC_REG,
        PAC.PAC_NOME,
-       CTL.CTL_DTHR DTREGISTRO,
-       CTL.CTL_FC FREQCARD,
+       CTL.CTL_DTHR DTREGISTRO,  /* Data admissão =  Internamento */
+       CTL.CTL_FC FREQCARD,      /* Registro do Paciente */
        CTL.CTL_RESP FREQRESP,
        CTL.CTL_TEMP TEMP,
        CTL.CTL_TAS PRESIS,
