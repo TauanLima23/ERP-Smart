@@ -12,4 +12,4 @@ FROM
 WHERE  
     RCL.RCL_PAC = :paciente 
     AND RCL.RCL_DTHR = :dtrcl 
-    AND RCL.RCL_COD = :serviço
+    AND RCL.RCL_COD = :servico
