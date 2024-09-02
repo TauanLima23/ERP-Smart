@@ -1,4 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Associar arquivos Python
 *.py linguagens=python
-*.py linguagens=sql
+
+# Associar arquivos SQL
+*.sql linguagens=sql
