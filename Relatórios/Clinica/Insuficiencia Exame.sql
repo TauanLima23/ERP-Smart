@@ -92,5 +92,5 @@ FROM RCL
 WHERE RCL.RCL_COD IN ('3888') AND
 RCL.RCL_DTHR >=  to_date ( '2024-09-01 00:00:00', 'yyyy-mm-dd hh24:mi:ss' ) AND
 RCL.RCL_DTHR <=  to_date ( '2024-09-10 00:00:00', 'yyyy-mm-dd hh24:mi:ss' )  AND
-SMART.F_RESULTADO_RCL_2(RCL.RCL_TXT, 30112, 01) <> '?'
+SMART.F_RESULTADO_RCL_2(RCL.RCL_TXT, 30112, 01) <
 
