@@ -11,4 +11,5 @@ FROM RCL
      INNER JOIN HSP ON (RCL.RCL_PAC = HSP.HSP_PAC) AND (RCL.RCL_HSP = HSP.HSP_NUM)
      INNER JOIN LOC ON (HSP.HSP_LOC = LOC.LOC_COD)
 WHERE RCL.RCL_DTHR >  to_date ( '2024-11-01 00:00:00', 'yyyy-mm-dd hh24:mi:ss' ) AND
-      RCL.RCL_DTHR <  to_date ( '2024-11-02 00:00:00', 'yyyy-mm-dd hh24:mi:ss' )
+      RCL.RCL_DTHR <  to_date ( '2024-11-02 00:00:00', 'yyyy-mm-dd hh24:mi:ss' ) AND
+       TESTE DE PULL
